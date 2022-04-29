@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #e6e6ea;
+}
+
+.container{
+   padding: 10px; 
+   overflow:hidden;
+   background-color: #fe4a49;
+}
+
+ h1{
+    float: left;
+    margin-left: 10%;
+    color: black;
+}
+
+.container ul{ 
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding-right: 42px;
+}
+
+.container li{
+    margin-top: 10px;
+    float: left;
+    padding: 0 65px 0 65px;
+}
+
+.container li:hover{
+    background-color: aquamarine;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+.current a::after{
+    content: '_';
+    background-color: white;
+    font-size: 4px;
+    display: block;
+
+}
+
+.logo{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6 {
+    background: whitesmoke;
+}
+
+.departments div{
+    margin-top: 5%;
+    padding: 30px;
+    background-color: wheat;
+    border-radius: 30%;
+}
+
+.departments{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,1fr));
+    grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
+    column-gap: 10px;
+    row-gap: 15px;
+
+    
+}
+
+h4{
+    padding: 20px;
+    margin-top: 5%;
+}
+
+h3{
+    color:brown;
+}
+
+#image-round{
+    border-radius: 100%;
+    align-items: center;
+}
+
+.bottom{
+    margin-left: 10%;
+}
