@@ -29,7 +29,6 @@ body{
 .motto{
     padding: 0 20px 0 20px;
    font-size: 2rem; 
-   float: left;
    color:green;
 }
 
@@ -85,3 +84,6 @@ body{
     color: red;
 }
 
+p{
+    margin-top: 2%;
+}
