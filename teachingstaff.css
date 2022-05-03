@@ -66,9 +66,6 @@ body{
     margin-top: 10%;
     background-color: wheat;
     border-radius: 30%;
- 
-    
-   
 }
 
 
@@ -79,9 +76,6 @@ body{
     grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
     column-gap: 10px;
     row-gap: 15px;
-    
-   
-  
 }
 
 .photo2 div{
@@ -89,9 +83,6 @@ body{
     padding: 0px;
     background-color: wheat;
     border-radius: 30%;
- 
-  
-
 }
 
 .photo2{
@@ -100,13 +91,8 @@ body{
     grid-template-columns: repeat(2, minmax(200px,1fr));
     grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
     column-gap: 10px;
-    row-gap: 15px;
-    
-   
-
-    
+    row-gap: 15px;   
 }
-
 
 #image-round{
     border-radius: 100%;
@@ -115,4 +101,13 @@ body{
 
 .bottom{
     margin-left: 10%;
+    font-weight: bold;
 }
+
+.photo2 a{
+font-weight: bold;
+}
+
+.photo1 a{
+    font-weight: bold;
+    }
