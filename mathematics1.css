@@ -62,9 +62,7 @@ td {
     margin: 0px 30px;
 }
 
-.current a::after{
-    content: '_';
+.color .current{
     background-color: white;
-    font-size: 4px;
-    display: block;
+
 }
