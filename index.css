@@ -41,7 +41,7 @@ body{
     color: black;
     font-weight: bold;
 }
-.current a::after{
+.current ::after{
     content: '_';
     background-color: white;
     font-size: 4px;
