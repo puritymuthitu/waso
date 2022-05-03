@@ -26,24 +26,20 @@ td {
     font-family: 'Times New Roman', Times, serif; 
 
 }
-.container{
+.color{
     padding: 10px; 
     overflow:hidden;
     background-color: #fe4a49;
+    list-style-type: none;
+     font-size: 20px;
+     margin: 0;
+     
  }
- 
   h1{
      float: left;
      margin-left: 10%;
      color: black;
      margin-top: 10px;
- }
- 
- .container ul{ 
-     list-style-type: none;
-     font-size: 20px;
-     margin: 0;
-     padding-right: 42px;
  }
  
  .container li{
@@ -52,19 +48,20 @@ td {
      padding: 0 65px 0 65px;
  }
  
- .container li:hover{
+ .color a:hover{
      background-color: aquamarine;
  }
  
- .container a {
-     text-decoration: none;
-     color: black;
- }
+ .color a {
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
 
  .logo{
-    height: 48px;
+    height: 55px;
     float: left;
-    margin: 16px 48px;
+    margin: 0px 30px;
 }
 
 .current a::after{

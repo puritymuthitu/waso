@@ -7,10 +7,14 @@ body{
    background-color: #e6e6ea;
 }
 
-.container{
-   padding: 10px; 
-   overflow:hidden;
-   background-color: #fe4a49;
+.color{
+  padding: 10px; 
+  overflow:hidden;
+  background-color: #fe4a49;
+  list-style-type: none;
+   font-size: 20px;
+   margin: 0;
+   
 }
 
  .container ul{ 
@@ -28,13 +32,14 @@ body{
 }
 
 
-.container li:hover{
+.color a:hover{
     background-color: aquamarine;
 }
 
-.container a {
-    text-decoration: none;
-    color: black;
+.color a {
+  text-decoration:none;
+  color: black;
+  font-weight: bold;
 }
 .current a::after{
     content: '_';
@@ -96,8 +101,8 @@ body{
   
 
   .logo{
-    height: 48px;
+    height: 55px;
     float: left;
-    margin: 16px 48px;
+    margin: 0px 30px;
 }
  

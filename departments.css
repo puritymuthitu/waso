@@ -7,10 +7,13 @@ body{
    background-color: #e6e6ea;
 }
 
-.container{
-   padding: 10px; 
-   overflow:hidden;
-   background-color: #fe4a49;
+.color{
+    padding: 10px; 
+    overflow:hidden;
+    background-color: #fe4a49;
+    list-style-type: none;
+     font-size: 20px;
+     margin: 0;;
 }
 
  h1{
@@ -19,24 +22,17 @@ body{
     color: black;
 }
 
-.container ul{ 
-    list-style-type: none;
-    font-size: 20px;
-    margin: 0;
-    padding-right: 42px;
-}
-
 .container li{
     margin-top: 10px;
     float: left;
     padding: 0 65px 0 65px;
 }
 
-.container li:hover{
+.color a:hover{
     background-color: aquamarine;
 }
 
-.container a {
+.color a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -50,9 +46,9 @@ body{
 }
 
 .logo{
-    height: 48px;
+    height: 55px;
     float: left;
-    margin: 16px 48px;
+    margin: 0px 30px;
 }
 
 .box1,.box2,.box3,.box4,.box5,.box6 {
