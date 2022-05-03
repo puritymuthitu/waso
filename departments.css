@@ -97,7 +97,8 @@ h3{
 
 .bottom{
     margin-left: 10%;
-    font-weight: bolder;
+    font-size: 1.5rem;
+    color: red;
 }
 p{
     padding: 10px;
